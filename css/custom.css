@@ -1,0 +1,66 @@
+/* Navigation Bar - Main Menu */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.mainnavmenu .navbar-brand {
+  height: 80px;
+}
+
+.mainnavmenu .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mainnavmenu .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+.navbar-nav>li:hover {
+	background-color: #E2E2E2;
+}
+
+/* Main Content */
+.container-fluid {
+	padding: 0% 5%;
+}
+
+/* Sidebar */
+.well {
+	background-image: none;
+	background-color: #FCFCFC;
+	color: #777777;
+}
+
+/* Users Lists */
+#usersList {
+	width: 100px;
+	padding: 0px;
+	list-style: none;
+}
+
+.usersAssigned {
+	padding: 0px 4px;
+	width: 140px;
+	height: 60px;
+	overflow: auto;
+	border: 1px solid #ddd;
+}
+
+.usersAssigned.border {
+	border-width: 2px;
+}
+
+.glyphicon-ok {
+ color: green;	
+ font-size: 18px;
+}
+
