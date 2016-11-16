@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collab | Team Collaboration</title>
+
+    <!-- BOOTSTRAP: Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- BOOTSTRAP: Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+
+    <!-- CUSTOM -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/custom.css">
+
+
+
+
+  </head>
+
+  <body>
+    <div class="mainnavmenu">
+      <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="dashboard.html"><img src="img/collab.png" alt="Collab Web App">
+        </a>
+        </div>
+        <div id="navbar3" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="TaskManager.html">Task Manager</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">John Smith<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Manage Account</a></li>
+            <li class="divider"></li>
+            <li><a href="index.html">LOGOUT</a></li>
+          </ul>
+          </li>
+        </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+      </nav>
+    </div>
+
+    <!-- MAIN CONTENT -->
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="dashboard.html">Overview</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+             <li class="active"><a href="MyTask.html">My Tasks <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
+          <div class="row placeholders">
+            <h2>Progress</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                25%
+              </div>
+            </div>
+          </div>
+
+          <h2>My tasks</h2>
+            <div class="search-container">
+              <div class="search-bar">
+              <div class="btn-group col-lg-2">
+                <button type="button" class="btn btn-danger">Add Row</button>
+                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Done</a></li>
+                  <li><a href="#">Delete</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Select All</a></li>
+                </ul>
+              </div>
+                <div class="input-group col-lg-10">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                </div><!-- /input-group -->
+              </div>
+            </div>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Task</th>
+                  <th>Assigned To</th>
+                  <th>Due Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Lorem</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>consectetur</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>nec</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Sed</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>diam</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>quis</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>elementum</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Praesent</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>tellus</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>porta</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Vestibulum</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>nulla</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>sociosqu</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>conubia</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>inceptos</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>ligula</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- BOOTSTRAP: Latest compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" ></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+  </body>
+
+</html>
