@@ -59,37 +59,286 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <div class="main-content container-fluid">
-
-        <div class="col-md-12">
-          <!-- Main jumbotron for a primary marketing message or call to action -->
-              <div class="jumbotron">
-                <div class="container">
-                  <h1 class="display-3">Hi, John Smith!</h1>
-                  <p>This is a your dashboard! A template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                  <p><a class="btn  btn-warning btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-                </div>
-              </div>
-
-              <div class="container">
-                <!-- Example row of columns -->
-                <div class="row">
-                  <div class="col-md-4">
-                    <h2>Manage Tasks</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  </div>
-                  <div class="col-md-4">
-                    <h2>Create Teams</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                 </div>
-                  <div class="col-md-4">
-                    <h2>Track Projects</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  </div>
-                </div>
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#">My Tasks</a></li>
+            <li><a href="#">Group Tasks</a></li>
+          </ul>
         </div>
+        <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
+          <h1>Dashboard</h1>
 
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+          </div>
+
+          <h2>All tasks</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Task</th>
+                  <th>Assigned To</th>
+                  <th>Due Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Lorem</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>consectetur</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>nec</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Sed</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>diam</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>quis</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>elementum</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Praesent</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>tellus</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>porta</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>Vestibulum</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>nulla</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>sociosqu</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>conubia</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>inceptos</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <input type="checkbox" aria-label="...">
+                        </span>
+                        <input type="text" class="form-control" aria-label="...">
+                      </div><!-- /input-group -->
+                    </div><!-- /.col-lg-6 -->
+                  </td>
+                  <td>ligula</td>
+                  <td>dd/mm/yyyy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
+
 
 
 
