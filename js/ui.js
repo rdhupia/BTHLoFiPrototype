@@ -222,6 +222,61 @@ $(document).ready(function() {
 	}
 	});
 	
+	// Toggle Status
+	$('#complete1').click(function(){
+		$('#status1').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete2').click(function(){
+		$('#status2').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete3').click(function(){
+		$('#status3').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete4').click(function(){
+		$('#status4').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete5').click(function(){
+		$('#status5').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete6').click(function(){
+		$('#status6').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
 	
 	
 	
