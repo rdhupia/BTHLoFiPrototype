@@ -85,3 +85,24 @@
 	padding-top: 85px;
 }
 
+.search-bar{
+  padding: 20px 15px 20px 0px;
+  float: right;
+}
+
+.progress {
+  margin-top: 25px;
+}
+
+.active{
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.nav>li>a{
+  color: orange;
+}
+
+.panel-group{
+  margin-top: 20px;
+}
