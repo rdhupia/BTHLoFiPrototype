@@ -277,6 +277,281 @@ $(document).ready(function() {
 		}
 	});
 	
+		// Toggle Status
+	$('#complete7').click(function(){
+		$('#status7').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete8').click(function(){
+		$('#status8').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete9').click(function(){
+		$('#status9').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete10').click(function(){
+		$('#status10').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete11').click(function(){
+		$('#status11').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete12').click(function(){
+		$('#status12').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+		// Toggle Status
+	$('#complete13').click(function(){
+		$('#status13').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete14').click(function(){
+		$('#status14').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete15').click(function(){
+		$('#status15').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete16').click(function(){
+		$('#status16').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete17').click(function(){
+		$('#status17').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete18').click(function(){
+		$('#status18').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+		// Toggle Status
+	$('#complete19').click(function(){
+		$('#status19').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete20').click(function(){
+		$('#status20').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete21').click(function(){
+		$('#status21').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete22').click(function(){
+		$('#status22').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete23').click(function(){
+		$('#status23').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete24').click(function(){
+		$('#status24').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+		// Toggle Status
+	$('#complete25').click(function(){
+		$('#status25').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete26').click(function(){
+		$('#status26').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete27').click(function(){
+		$('#status27').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete28').click(function(){
+		$('#status28').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete29').click(function(){
+		$('#status29').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete30').click(function(){
+		$('#status30').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+		// Toggle Status
+	$('#complete31').click(function(){
+		$('#status31').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete32').click(function(){
+		$('#status32').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete33').click(function(){
+		$('#status33').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete34').click(function(){
+		$('#status34').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete35').click(function(){
+		$('#status35').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
+	$('#complete36').click(function(){
+		$('#status36').find('span').toggleClass('glyphicon-ok').toggleClass('glyphicon-remove');
+		if ((this).innerHTML == "Mark Incomplete") {
+			(this).innerHTML = "Mark Complete";
+		} else {
+			(this).innerHTML = "Mark Incomplete";
+		}
+	});
+	
 	
 	
 	

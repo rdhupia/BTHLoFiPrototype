@@ -43,6 +43,10 @@
 	color: #777777;
 }
 
+#dashSidebar {
+	margin-top: 10px;
+}
+
 /* Users Lists */
 #usersList {
 	width: 100px;
@@ -62,6 +66,16 @@
 	border-width: 2px;
 }
 
+.draggableUsers {
+	padding: 4px 4px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	border: 2px solid #ddd;
+	margin: 0px 6px;
+}
+
+/* Icons */
 .glyphicon-ok {
  color: green;
  font-size: 18px;
@@ -70,6 +84,10 @@
 .glyphicon-remove {
  color: red;
  font-size: 18px;
+}
+
+.glyphicon-chevron-down {
+	padding-top: 2px;
 }
 
 .form-signin{
@@ -105,4 +123,8 @@
 
 .panel-group{
   margin-top: 20px;
+}
+
+.addTask {
+	width: 200px;
 }
