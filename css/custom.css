@@ -118,7 +118,11 @@
 }
 
 .nav>li>a{
-  color: orange;
+  color: #898989;
+}
+
+small {
+	font-size: 60%;
 }
 
 .panel-group{

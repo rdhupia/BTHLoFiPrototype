@@ -38,7 +38,22 @@
 			  <div id="navbar3" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 				  <li><a href="dashboard.html">Dashboard</a></li>
-				  <li class="active"><a href="TaskManager.html">Task Manager</a></li>
+				  <li class="dropdown active">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Projects<span class="caret"></span></a>
+					  <ul class="dropdown-menu" role="menu">
+						<li><a href="TaskManager.html">#1: E-Commerce Website <small> BTS | School</small></a></li>
+						<li class="divider"></li>
+						<li><a href="TaskManager.html">#2: BTH Assignment 2 <small> BTH | School</small></a></li>
+						<li class="divider"></li>
+						<li><a href="TaskManager.html">#3: ASP.net Web App <small> Work</small></a></li>
+						<li class="divider"></li>
+						<li><a href="TaskManager.html">#4: BTS Group Project <small> BTS | School</small></a></li>
+						<li class="divider"></li>
+						<li><a href="TaskManager.html">#5: Another Group Project <small> Private</small></a></li>
+						<li class="divider"></li>
+						<li><a href="TaskManager.html">#6: Yet Another Group Project <small> BTN | School</small></a></li>
+					  </ul>
+					  </li>
 				  <li><a href="about.php">About</a></li>
 				  <li><a href="contact.php">Contact</a></li>
 				  <li class="dropdown">
@@ -76,7 +91,7 @@
 					<p><strong>Project Started:</strong> 01 October 2016</p>
 				</div>
 				<div class="col-md-2">
-					<p><strong>Milestones Completed:</strong> 03/6</p>
+					<p><strong>Milestones Completed:</strong> 3/6</p>
 				</div>
 				<div class="col-md-2">
 					<p><strong>Tasks Completed:</strong> 21/36</p>
@@ -96,24 +111,194 @@
 								<li class="nav-header">MILESTONES</li>
 								<li><a href="#m1">1: Complete Requirements Documents</a></li>
 								<li class="divider"></li>
-								<li><a href="#m2">2: Complete Requirements Documents</a></li>
+								<li><a href="#m2">2: Complete Building Database</a></li>
 								<li class="divider"></li>
-								<li><a href="#m3">3: Complete Requirements Documents</a></li>
+								<li><a href="#m3">3: Complete Usability testing</a></li>
 								<li class="divider"></li>
-								<li><a href="#m4">4: Complete Requirements Documents</a></li>
+								<li><a href="#m4">4: Complete back-end development</a></li>
 								<li class="divider"></li>
-								<li><a href="#m5">5: Complete Requirements Documents</a></li>
+								<li><a href="#m5">5: Finish developing application</a></li>
 								<li class="divider"></li>
-								<li><a href="#m6">6: Complete Requirements Documents</a></li>
+								<li><a href="#m6">6: Sign off on project</a></li>
 								
 							</ul>
 						</div>
-						<a href="AddMilestone.html" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-plus"></span> Add a Milestone</a>
+						<a href="AddMilestone.html" class="btn btn-warning btn-block" data-toggle="modal" data-target="#addMilestone-modal"><span class="glyphicon glyphicon-plus"></span> Add a Milestone</a>
 						<!--/.well -->
 					</div>
 					<!--/sidebar-nav-fixed -->
 				</div>
 				<!--/Side bar-->
+				
+				<!-- BEGIN # MODAL ADD TASK -->
+				<div class="modal fade" id="addTask-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header" align="center">
+									<img class="img-circle" id="img_logo" src="img/collab.png" alt="Collab Web App">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+									</button>
+								</div>
+								
+								<!-- Begin # DIV Form -->
+								<div id="div-forms">
+								  <div class="row">
+									<div class="col-md-10 col-md-offset-1">
+									  <form class="form-horizontal" role="form">
+										<fieldset>
+
+										  <!-- Form Name -->
+										  <legend>Add New Task</legend>
+										  
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Project</label>
+											<div class="col-sm-10">
+											  <input type="text" placeholder="E-Commerce Website" class="form-control" readonly>
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Task</label>
+											<div class="col-sm-10">
+											  <input type="text" placeholder="Enter task name here" class="form-control">
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Task Detail</label>
+											<div class="col-sm-10">
+												<textarea class="form-control" rows="5" id="detail"></textarea>
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="dropdownMenu1">Milestone</label>
+											<div class="col-sm-10">
+												<div class="dropdown">
+												  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+													Milestone #1: Complete Requirements Documents
+													<span class="caret"></span>
+												  </button>
+												  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+													<li><a href="#">Milestone #2: Complete Building Database </a></li>
+													<li><a href="#">Milestone #3: Complete Usability testing</a></li>
+													<li><a href="#">Milestone #4: Complete back-end development</a></li>
+													<li><a href="#">Milestone #5: Finish developing application</a></li>
+													<li><a href="#">Milestone #6: Sign off on project</a></li>
+												  </ul>
+												</div>
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Due Date</label>
+											<div class="col-sm-5">
+											  <input type="date" class="form-control">
+											</div>
+
+										  </div>
+
+										  <div class="form-group">
+											<div class="col-sm-offset-2 col-sm-10">
+											  <div class="pull-right">
+												<button type="submit" class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+												<button type="submit" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Save</button>
+											  </div>
+											</div>
+										  </div>
+
+										</fieldset>
+									  </form>
+									</div><!-- /.col-lg-12 -->
+								</div><!-- /.row -->
+									
+								</div>
+								<!-- End # DIV Form -->
+								
+							</div>
+						</div>
+					</div><!-- End of Add Task MODAL -->
+					
+					<!-- BEGIN # MODAL ADD MILESTONE -->
+					<div class="modal fade" id="addMilestone-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header" align="center">
+									<img class="img-circle" id="img_logo" src="img/collab.png" alt="Collab Web App">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+									</button>
+								</div>
+								
+								<!-- Begin # DIV Form -->
+								<div id="div-forms">
+								  <div class="row">
+									<div class="col-md-10 col-md-offset-1">
+									  <form class="form-horizontal" role="form">
+										<fieldset>
+
+										  <!-- Form Name -->
+										  <legend>Add New Milestone</legend>
+										  
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Project</label>
+											<div class="col-sm-10">
+											  <input type="text" placeholder="E-Commerce Website" class="form-control" readonly>
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Milestone</label>
+											<div class="col-sm-10">
+											  <input type="text" placeholder="Enter Milestone name here" class="form-control">
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Description</label>
+											<div class="col-sm-10">
+												<textarea class="form-control" rows="5" id="detail"></textarea>
+											</div>
+										  </div>
+
+										  <!-- Text input-->
+										  <div class="form-group">
+											<label class="col-sm-2 control-label" for="textinput">Due Date</label>
+											<div class="col-sm-5">
+											  <input type="date" class="form-control">
+											</div>
+
+										  </div>
+
+										  <div class="form-group">
+											<div class="col-sm-offset-2 col-sm-10">
+											  <div class="pull-right">
+												<button type="submit" class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+												<button type="submit" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Save</button>
+											  </div>
+											</div>
+										  </div>
+
+										</fieldset>
+									  </form>
+									</div><!-- /.col-lg-12 -->
+								</div><!-- /.row -->
+									
+								</div>
+								<!-- End # DIV Form -->
+								
+							</div>
+						</div>
+					</div><!-- End of Add Milestone MODAL -->
 				
 				
 				<!-- Milestone -->
@@ -121,7 +306,7 @@
 					<h3 class="text-center" id="m1">Milestone #1: Complete Requirements Documents <span class="glyphicon glyphicon-ok"></span></h3>
 										
 					
-					<p><strong>Team Members</strong> (Drag and drop under 'Assigned to' column to allocate tasks):</p>
+					<p><strong>Team Members</strong> (Drag and drop users to the 'Assigned to' column to allocate users to each task):</p>
 					<div class="col-md-9">
 							<div class="draggableUsers">
 								<a href="#" class="btn btn-warning btn-sm users"><span class="glyphicon glyphicon-move"></span> GBrown</a>
@@ -130,8 +315,9 @@
 								<a href="#" class="btn btn-warning btn-sm users"><span class="glyphicon glyphicon-move"></span> BJohnson</a>
 							</div>
 					</div>
+										
 					<div class="col-md-3">
-						<a href="AddTask.html" class="btn btn-warning btn-block addTask"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
+						<a href="AddTask.html" class="btn btn-warning btn-block addTask" data-toggle="modal" data-target="#addTask-modal"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
 					</div>
 					
 					<table class="table">
@@ -234,12 +420,7 @@
 								</div>
 							</td>
 						  </tr>
-						  <tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						  </tr>
+						
 						</tbody>
 					  </table>
 				</div>
@@ -247,7 +428,7 @@
 				
 				<!-- Milestone -->
 				<div class="col-md-9 col-md-offset-3">
-					<h3 class="text-center" id="m2">Milestone #2: Complete Requirements Documents <span class="glyphicon glyphicon-ok"></span></h3>
+					<h3 class="text-center" id="m2">Milestone #2: Complete Building Database <span class="glyphicon glyphicon-ok"></span></h3>
 					
 					<p><strong>Team Members</strong> (Drag and drop under 'Assigned to' column to allocate tasks):</p>
 					<div class="col-md-9">
@@ -259,7 +440,7 @@
 							</div>
 					</div>
 					<div class="col-md-3">
-						<a href="AddTask.html" class="btn btn-warning btn-block addTask"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
+						<a href="AddTask.html" class="btn btn-warning btn-block addTask" data-toggle="modal" data-target="#addTask-modal"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
 					</div>
 					
 
@@ -363,12 +544,7 @@
 								</div>
 							</td>
 						  </tr>
-						  <tr>
-							<td><a href="AddTask.html" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-plus"></span> Add a Task</a></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						  </tr>
+						  
 						</tbody>
 					  </table>
 				</div>
@@ -376,7 +552,7 @@
 				
 				<!-- Milestone -->
 				<div class="col-md-9 col-md-offset-3">
-					<h3 class="text-center" id="m3">Milestone #3: Complete Requirements Documents <span class="glyphicon glyphicon-ok"></span></h3>
+					<h3 class="text-center" id="m3">Milestone #3: Complete Usability testing <span class="glyphicon glyphicon-ok"></span></h3>
 					
 					<p><strong>Team Members</strong> (Drag and drop under 'Assigned to' column to allocate tasks):</p>
 					<div class="col-md-9">
@@ -388,7 +564,7 @@
 							</div>
 					</div>
 					<div class="col-md-3">
-						<a href="AddTask.html" class="btn btn-warning btn-block addTask"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
+						<a href="AddTask.html" class="btn btn-warning btn-block addTask" data-toggle="modal" data-target="#addTask-modal"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
 					</div>
 					
 
@@ -492,12 +668,7 @@
 								</div>
 							</td>
 						  </tr>
-						  <tr>
-							<td><a href="AddTask.html" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-plus"></span> Add a Task</a></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						  </tr>
+						  
 						</tbody>
 					  </table>
 				</div>
@@ -505,7 +676,7 @@
 				
 				<!-- Milestone -->
 				<div class="col-md-9 col-md-offset-3">
-					<h3 class="text-center" id="m4">Milestone #4: Complete Requirements Documents</h3>
+					<h3 class="text-center" id="m4">Milestone #4: Complete back-end development</h3>
 					
 					<p><strong>Team Members</strong> (Drag and drop under 'Assigned to' column to allocate tasks):</p>
 					<div class="col-md-9">
@@ -517,7 +688,7 @@
 							</div>
 					</div>
 					<div class="col-md-3">
-						<a href="AddTask.html" class="btn btn-warning btn-block addTask"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
+						<a href="AddTask.html" class="btn btn-warning btn-block addTask" data-toggle="modal" data-target="#addTask-modal"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
 					</div>
 					
 
@@ -621,12 +792,7 @@
 								</div>
 							</td>
 						  </tr>
-						  <tr>
-							<td><a href="AddTask.html" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-plus"></span> Add a Task</a></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						  </tr>
+						  
 						</tbody>
 					  </table>
 				</div>
@@ -634,7 +800,7 @@
 				
 				<!-- Milestone -->
 				<div class="col-md-9 col-md-offset-3">
-					<h3 class="text-center" id="m5">Milestone #5: Complete Requirements Documents</h3>
+					<h3 class="text-center" id="m5">Milestone #5: Finish developing application</h3>
 					
 					<p><strong>Team Members</strong> (Drag and drop under 'Assigned to' column to allocate tasks):</p>
 					<div class="col-md-9">
@@ -646,7 +812,7 @@
 							</div>
 					</div>
 					<div class="col-md-3">
-						<a href="AddTask.html" class="btn btn-warning btn-block addTask"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
+						<a href="AddTask.html" class="btn btn-warning btn-block addTask" data-toggle="modal" data-target="#addTask-modal"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
 					</div>
 					
 					<table class="table">
@@ -749,12 +915,7 @@
 								</div>
 							</td>
 						  </tr>
-						  <tr>
-							<td><a href="AddTask.html" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-plus"></span> Add a Task</a></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						  </tr>
+						 
 						</tbody>
 					  </table>
 				</div>
@@ -762,7 +923,7 @@
 				
 				<!-- Milestone -->
 				<div class="col-md-9 col-md-offset-3">
-					<h3 class="text-center" id="m6">Milestone #6: Complete Requirements Documents</h3>
+					<h3 class="text-center" id="m6">Milestone #6: Sign off on project</h3>
 					
 					<p><strong>Team Members</strong> (Drag and drop under 'Assigned to' column to allocate tasks):</p>
 					<div class="col-md-9">
@@ -774,7 +935,7 @@
 							</div>
 					</div>
 					<div class="col-md-3">
-						<a href="AddTask.html" class="btn btn-warning btn-block addTask"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
+						<a href="AddTask.html" class="btn btn-warning btn-block addTask" data-toggle="modal" data-target="#addTask-modal"><span class="glyphicon glyphicon-plus"></span> Add New Task</a>
 					</div>
 					
 
@@ -878,12 +1039,7 @@
 								</div>
 							</td>
 						  </tr>
-						  <tr>
-							<td><a href="AddTask.html" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-plus"></span> Add a Task</a></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						  </tr>
+						  
 						</tbody>
 					  </table>
 				</div>
